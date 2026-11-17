@@ -1,0 +1,545 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+header{
+    background-color: #74C69D;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+nav a{
+ text-decoration: none;
+ gap: 30px;
+ color: white;
+ font-size: 25px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.home{
+    display: flex;
+align-items: center;
+ justify-content: center;
+background-color:#74C69D ;
+    color: white;
+    width: 86%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.home img{
+    width: 645px;
+    height: 378px;
+}
+body{
+    background-color:#74C69D;
+}
+.text{
+    max-width: 450px;
+}
+.home button{
+    width: 170px;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.sponsorss{
+    background-color: white;
+}
+.home h1{
+    margin-bottom: 10px;
+}
+.home h2{
+    margin-bottom: 8px;
+}
+.home p{
+    margin-bottom: 15px;
+}
+.home button{
+    margin-top: 5px;
+}
+.sponsorss h3{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    color: #74C69D;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.sponsorss h4{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 8px;
+}
+.sponsorss p{
+ align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 15px;
+}
+.companys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: none;
+    width: 100%;
+    max-width: none;
+    gap: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.companys img{
+    width: 152px;
+    height: 50px;
+    object-fit: contain;
+}
+.companys div{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsorss button{
+      align-items: center;
+   justify-content: center;
+    display: flex;
+    width: 170px;
+    height: 48px;
+       font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+.sponsorss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.person{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 60px;
+    padding: 50px 7.5%;
+    box-sizing: border-box;
+}
+.person img{
+    width: 600px;
+    height: 431px;
+}
+.person h5{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.person p{
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: gray;
+}
+.person button{
+    font-size: 20px;
+    width: 170px;
+    height: 48px;
+     border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 23px;
+}
+.sit{
+    background-color: white;
+    display: flex;
+     width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 60px;
+    padding: 50px 7.5%;
+    box-sizing: border-box;
+}
+.sit h6{
+ font-size: 45px;
+}
+.sit p{
+  font-size: 15px;
+    color: gray;
+}
+.sit button{
+      font-size: 20px;
+    width: 170px;
+    height: 48px;
+     border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 23px;
+}
+.sit img{
+    width: 600px;
+    height: 565px;
+}
+.talents{
+    background-color: white;
+}
+.talents h5{
+    font-size: 20px;
+     display: flex;
+      align-items: center;
+    text-align: center;
+    justify-content: center;
+    color:#74C69D;
+    margin-bottom: 10px;
+}
+.talents h6{
+    font-size: 40px;
+    color: black; 
+     display: flex;
+      align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.talents p{
+    font-size: 20px;
+      display: flex;
+      align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.talents img{
+    width: 175px;
+    height: 175px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.PEOPLES{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.PEOPLE{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.talents h1{
+    margin-bottom:30px ;
+}
+.talents h2{
+    margin-bottom:30px ;
+}
+.talents h3{
+    margin-bottom:30px ;
+}
+.talents h4{
+    margin-bottom:30px ;
+}
+.PEOPLES p{
+    color: gray;
+}
+.teams button{
+display: block;
+margin: 30px auto;
+  font-size: 20px;
+    width: 170px;
+    height: 48px;
+     border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+footer{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    width: 25px;
+    height: 20px;
+}
+footer p{
+    color:white;
+    font-size: 20px;
+}
+
+.portfolio{
+    background-color: white;
+}
+.portfolio h1{
+    font-size: 16px;
+    color: #74C69D;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.portfolio h2{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.portfolio p{
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.portfolio img{
+    width: 570px;
+    height: 335px;
+}
+.themes{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+   width: 85%;
+   margin: 0 auto;
+}
+.themes img{
+width: 100%;
+height: 300px;
+object-fit: cover;
+margin-bottom: 30px;
+}
+ .portfolio button{
+    display: block;
+margin: 30px auto;
+  font-size: 20px;
+    width: 170px;
+    height: 48px;
+     border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+ }
+ .services h1{
+ font-size: 16px;
+    color: #74C69D;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+ }
+ .services h2{
+font-size: 40px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+ }
+ .services p{
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+ }
+.services{
+    background-color: white;
+}
+.work li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.work li i{
+    color: #74C69D;
+}
+.work li p{
+    margin: 0;
+    font-family: 13px;
+    color: black;
+}
+.work ul{
+    list-style: none;
+    padding: 0;
+    display: block;
+    text-align: left;
+}
+.work span{
+    color: grey;
+}
+.work p{
+    color: grey;
+}
+.work button{
+        display: block;
+  margin: 30px auto;
+  font-size: 20px;
+    width: 170px;
+    height: 48px;
+     border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+.works{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.work{
+    flex: 1;
+    padding: 30px;
+
+    margin-bottom: 55px;
+    height: 500px;
+}
+footer{
+    height: 125px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+.work h2{
+     align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.work h3{
+    margin-bottom: 10px;
+     align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.work p{
+    margin-bottom: 50px;
+}
+.works{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.work{
+ box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+}
+.location h1{
+  align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.location p{
+  align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.location{
+    background-color: white;
+}
+ input{
+    width: 575px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.location h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.location h3{
+    font-size: 20px;
+     margin-bottom: 10px;
+}
+
+.location h4{
+    font-size: 20px;
+     margin-bottom: 10px;
+}
+#Big{
+    width: 575px;
+    height: 75px;
+}
+
+iframe{
+    width: 575px;
+    height: 384px;
+}
+.contact-info{
+    display: flex;
+
+}
+.type{
+    width: 50%;
+}
+.map{
+    width: 50%;
+}
+.location{
+    padding: 40px 60px;
+}
+input{
+    background-color: rgb(165, 165, 165);
+}
+button{
+    transition: 0.3s ease;
+}
+button:active {
+background-color: white;
+color: black;
+transform: scale(1.05);
+cursor: pointer;
+}
